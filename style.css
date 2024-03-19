@@ -1,0 +1,699 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"rejouice headline";
+}
+*::selection{
+    background-color: black;
+    color: #fff;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+/* background-color: #1A1A1C; */
+}
+nav{
+    width: 100%;
+    height: 7%;
+    /* background-color: #CECFD0; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    padding: 0 9vw;
+    position: fixed;
+    margin-top: 1vw;
+    z-index: 1;
+}
+nav img{
+    width: 90px;
+    height: 80px;
+    /* background-color: red; */
+}
+nav .nav2{
+    width: 40vw;
+    background-color: #330902b9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 1.5vh 1.8vw;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    /* box-shadow: 0 1px 180px #3D1B15; */
+}
+nav .nav2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .nav2 a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+nav .nav3 a{
+    color: #fff;
+    background-color: #3D1B15;
+    font-size: 17px;
+    font-weight: 100;
+    border-radius: 20px;
+    padding:  1.5vh 1.8vw;
+    text-decoration: none;
+}
+nav .nav3 h3:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #CECFD0 ; */
+    padding-left: 5vb;
+    position: relative;
+}
+
+.page1 .heading{
+    position: absolute;
+    top: 120px;
+    width: 50%;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+      align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 8vw;
+    line-height: 100px;
+}
+.page1 .heading h1{
+    position: absolute;
+    top: 120px;
+    line-height: 60px;
+    font-size:65px;
+    letter-spacing: 2px;
+}
+.page1 .heading h5{
+    position: absolute;
+    font-size: 15px;
+    top:285px;
+}
+.page1 .heading button{
+    position: absolute;
+    font-size: 16px;
+    top:380px;
+    padding: .8vw 1.5vw;
+    border: none;
+    border-radius: 30px;
+    background-color: #3D1B15;
+    color: #fff;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+.page1 .heading button:hover{
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 12px #3D1B15;
+}
+.page1 .heading button i{
+    font-size: 22px;
+    font-weight: 10;
+}
+
+
+.page1 .headingimg img{
+    position: absolute;
+    width: 45%;
+    top: 55px;
+    right:100px;
+}
+
+
+/* page2 */
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    flex-direction: column;
+}
+.page2 .page2top{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+      align-items: center;
+    justify-content: space-around;
+    padding: 0 3.3vw;
+    border-bottom: 1px solid #3D1B15;
+}
+.page2 .page2top .box{
+    width: 190px;
+    height: 150px;
+    background-color: #3d1b15;
+    overflow: hidden;
+    padding: 1vw;
+    border-radius: 15px;
+    color: #fff;
+}
+.page2 .page2top .box:hover{
+    background-color: #2b130f;
+}
+.page2 .page2top .box img{
+    width: 30%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+.page2 .page2top .box img:hover{
+    scale: -0.1;
+}
+.page2 .page2top .box h3{
+    font-size: 13px;
+    margin-bottom: 8px;
+    font-weight: 80;
+}
+.page2 .page2top .box h6{
+    font-size: 12px;
+    font-weight: 80;
+}
+
+.page2 .page2down {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0, 30, 255); */
+    display: flex;
+    
+}
+.page2 .page2down .left{
+    width: 50%;
+    height: 60%;
+    /* background-color: orange; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+   
+}
+.page2 .page2down .left .leftcan{
+    width: 70%;
+    height: 75%;
+    /* background-color: red; */
+    border-radius: 20px;
+    overflow: hidden;
+   
+    position: relative;
+}
+.page2 .page2down .left .leftcan video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+    object-fit: cover;
+}
+.page2 .page2down .left .leftcan video:hover{
+    opacity: 0;
+}
+
+.page2 .page2down .left .leftcan img{
+    width: 100%;
+    height: 100%;
+    /* transition: 1s; */
+}
+
+.page2 .page2down .right{
+    width: 50%;
+    height: 60%;
+    /* background-color: lawngreen; */
+    display: flex;
+      align-items: center;
+    justify-content: start;
+}
+.page2 .page2down .right .cantent{
+    width: 80%;
+    height: 80%;
+    /* background-color: blue; */
+    padding: 1vw;
+}
+
+.page2 .page2down .right .cantent h1{
+    line-height: 40px;
+    font-size: 3vw;
+    font-weight: 150;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.page2 .page2down .right .cantent p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+.page2 .page2down .right .cantent button{
+    font-size: 15px;
+    padding: 0.5vw 1vw;
+    border-radius: 15px;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    background-color: #3D1B15;
+    cursor: pointer;
+}
+.page2 .page2down .right .cantent button:hover{
+    box-shadow: 0 2px 10px #3D1B15;
+    background-color: #fff;
+    color: black;
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.page3 .page3head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+      align-items:center;
+    justify-content: center;
+
+}
+.page3 .page3head h1{
+    padding: 0 15px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    background-color: #fff;
+    /* position: absolute; */
+    
+}
+.page3 .page3head .div{
+    width: 100%;
+    background-color: #3D1B15;
+    height: 5px;
+    left: 0;
+    top: 60px;
+    z-index: -2;
+    position: absolute;
+}
+
+.page3 .page3down{
+    width: 100%;
+    height: 75%;
+    /* background-color: blue; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+}
+.page3 .page3down .sliderbox{
+    width: 90%;
+    height: 85%;
+    /* background-color: rgb(234, 234, 238); */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+.page3 .page3down .sliderbox .box{
+    width: 280px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid #3D1B15;
+    /* background-color: red; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+.page3 .page3down .sliderbox .box img{
+    /* padding-top: 10px; */
+    width: 200px;
+    height: 190px;
+    /* background-color: blanchedalmond; */
+    border-radius: 15px;
+    transition: 1s;
+}
+.page3 .page3down .sliderbox .box img:hover{
+    scale: 1.1;
+}
+
+.page3 .page3down .sliderbox .box .text3{
+    width: 200px;
+    height: 140px;
+    /* background-color: green; */
+}
+.page3 .page3down .sliderbox .box .text3 h4{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.page3 .page3down .sliderbox .box .text3 h6{
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.page3 .page3down .sliderbox .box .text3 .rs{
+    display: flex;
+      align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.page3 .page3down .sliderbox .box .text3 .rs h1{
+    font-size: 25px;
+}
+.page3 .page3down .sliderbox .box .text3 .rs button{
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3D1B15;
+    color: #fff;
+    cursor: pointer;
+}
+.page3 .page3down .sliderbox .box .text3 .rs button:hover{
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 12px #3D1B15;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    position: relative;
+}
+.page4 .page4head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+}
+.page4 .page4head h1{
+    font-size: 35px;
+    letter-spacing: 3px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+.page4 .page4head .div{
+    width: 100%;
+    background-color: #3D1B15;
+    height: 5px;
+    left: 0;
+    top: 60px;
+    z-index: -2;
+    position: absolute;
+}
+
+/* ------- */
+.page4 .page4down{
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(225, 225, 236); */
+    display: flex;
+      align-items: center;
+    justify-content: space-between;
+    padding-left: 8vw;
+
+}
+.page4 .page4down .sliderbox{
+    width: 90%;
+    height: 85%;
+    /* background-color: rgb(234, 234, 238); */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+.page4 .page4down .sliderbox .box{
+    width: 340px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid #3D1B15;
+    /* background-color: red; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+.page4 .page4down .sliderbox .box img{
+    /* padding-top: 10px; */
+    width: 280px;
+    height: 240px;
+    /* background-color: blanchedalmond; */
+    border-radius: 15px;
+    transition: 1s;
+}
+.page4 .page4down .sliderbox .box img:hover{
+    scale: 1.1;
+}
+
+.page4 .page4down .sliderbox .box .text4{
+    width: 200px;
+    height: 140px;
+    /* background-color: green; */
+}
+.page4 .page4down .sliderbox .box .text4 h4{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.page4 .page4down .sliderbox .box .text4 h6{
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.page4 .page4down .sliderbox .box .text4 .rs{
+    display: flex;
+      align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.page4 .page4down .sliderbox .box .text4 .rs h1{
+    font-size: 25px;
+}
+.page4 .page4down .sliderbox .box .text4 .rs button{
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3D1B15;
+    color: #fff;
+    cursor: pointer;
+}
+.page4 .page4down .sliderbox .box .text4 .rs button:hover{
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 12px #3D1B15;
+}
+
+
+.page5{
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+      align-items: center;
+    justify-content: center;
+}
+.page5 .page5img{
+margin-top: 12px;
+    width: 80%;
+    height: 70%;
+    background-color: rgb(237, 235, 235);
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.page5 .page5img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page5 .page5img .page5sub{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /* background-color: magenta; */
+    border-radius: 20px;
+    padding: 10px 10px;
+    left: 80px;
+    top: 60px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 1;
+    letter-spacing: 3px;
+}
+.page5 .page5img .page5sub input{
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    width: 200px;
+}
+.page5 .page5img .page5sub input:focus{
+    outline : none;
+    border-color:none;
+    
+}
+
+
+.page5 .page5img .page5sub button{
+    background-color: #3D1B15;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.page5 .page5img .page5sub button:hover{
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 12px #3D1B15;
+}
+.page5 .page5img .page5sub button:active{
+    color: rgb(255, 0, 0);
+}
+
+
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #3D1B15 ;
+    display: flex;
+      align-items: center;
+    justify-content: space-around;
+    /* padding: 0 50px; */
+    position: relative;
+}
+.footer .footer1{
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2vw;  
+}
+.footer .footer1 h1{
+    margin-bottom: 1.5vw;
+}
+.footer .footer1 h6{
+    font-size: 13px;
+    font-weight: 10;
+    margin-bottom: 1.2vw;
+    transition: 0.5s;
+}
+.footer .footer1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .footer1 a:hover{
+    color: black;
+}
+
+.footer .footer1 i{
+    font-size: 20px;
+    font-weight: 10;
+    padding: 0 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer .footer1 .h-one{
+    font-size: 20px;
+    font-weight: 100;
+}
+.footer .footer1 .point{
+    cursor: pointer;
+}
+.footer .footer1 .point:hover{
+    color: black;
+}
+.footer .footer1 .point:active{
+    color: red;
+}
+
+
+.footer .footer1 .footbox{
+    width: 230px;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer .footer1  .mini{
+    width: 80px;
+    height: 50px;
+    /* background-color: blue; */
+    border-radius: 15px;
+    overflow: hidden;
+    /* object-fit: cover; */
+    /* align-items: center; */
+   
+}
+.footer .footer1  .mini img{
+    width: 100%;
+    height:100%;
+    transition: 1s;
+}
+.footer .footer1  .mini img:hover{
+    scale: 1.1;
+}
+
+.footer .footer1  .mini h6{
+    font-size: 12px;
+    font-weight: 10;
+}
+
+.footer .lastfoot{
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 10px;
+    padding-left: 0px;
+    border-top: 1px solid black;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.footer .lastfoot h2{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.footer .footer1 .footimg1{
+    width:50%;
+    height: 30%;
+    /* background-color: red; */
+    margin-bottom: 15px;
+}
+
+.footer .footer1 .footimg1 img{
+    width: 90px;
+    height: 80px;
+    /* background-color: red; */
+}
